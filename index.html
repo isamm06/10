@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <header> </header>
+
+    <main>
+        <form action="/archivo" method="post"></form>
+        <!--Conjunto de campos -->
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+
+            <div>
+                <label for="dni">DNI</label>
+                <input type="number" name="dni" id="dni">
+            </div>
+
+            <div>
+                <label for="nace">Fecha De Nacimiento</label>
+                <input type="date" name="nace" id="nace">
+            </div>
+
+            <div>
+                <legend>Genero</legend>
+                <label for="gen">Femenino</label>
+                <input type="radio" name="gen" id="femenino" value="femenino">
+                <label for="gen">Masculino</label>
+                <input type="radio" name="gen" id="masculino" value="masculino">
+                <label for="gen">Otro</label>
+                <input type="radio" name="gen" id="otro" value="otro">
+            </div>
+
+            <div>
+                <label for="pais">De donde eres</label>
+                <select name="pais" id="pais">
+                    <option value=""></option>
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="venezuela">Venezuela</option>
+                    <option value="colombia">Colombia</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+               
+            <div>
+                <label for="num">Numero De Telefono</label>
+                <input type="tel" name="num" id="num">
+            </div>
+           
+            
+            <div>
+                <label for="contra">Contraseña</label>
+                <input type="password" name="contra" id="contra">
+            </div>
+
+            
+
+
+        </fieldset>
+    </main>
+
+</body>
+
+</html>
