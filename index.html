@@ -13,7 +13,7 @@
     <header> </header>
 
     <main>
-        <form action="/archivo" method="post"></form>
+        <form action="/archivo" method="post">
         <!--Conjunto de campos -->
         <fieldset>
             <legend>Datos Personales</legend>
@@ -23,7 +23,7 @@
                 <input type="text" name="nombre" id="nombre">
 
                 <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
+                <input type="text" name="apellido" id="apellido" required>
             </div>
 
             <div>
@@ -75,10 +75,9 @@
                 <input type="password" name="contra" id="contra">
             </div>
 
-            
-
-
         </fieldset>
+    </form>
+        <input type="submit" value="enviar">
     </main>
 
 </body>

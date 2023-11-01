@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width: auto;
+            justify-content: center;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 1em;
+            text-align: center;
+        }
+
+        fieldset {
+            border: 0;
+        }
+        input{
+            border: 0;
+        }
+
+        main,
+        input {
+            margin: 0 auto;
+        }
+
+        label,
+        input {
+            padding-bottom: 5px;
+        }
+
+        main {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content:center ;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div>
+            <form action="">
+                <div>
+                    <h1>
+                        Bienvenid@ a la tarea de Isam! <br>
+                        Comencemos
+                    </h1>
+                </div>
+
+                <fieldset>
+                    <div>
+                        <label for="email"> Ingrese su correo electronico</label>
+                    </div>
+                    <div>
+                        <input type="text" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="contra">Cree una contraseña</label>
+                    </div>
+                    <div>
+                        <input type="password" name="contra" id="contra">
+                    </div>
+                    <div>
+                        <label for="name">Ingrese un nombre de usuario</label>
+                    </div>
+                    <div>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="fecha">Ingrese su fecha de nacimiento</label>
+                    </div>
+                    <div>
+                        <input type="date" name="fecha" id="fecha">
+                    </div>
+
+
+
+
+
+                    <div>
+                        <label for="gen">Java</label>
+                        <input type="radio" name="gen" id="femenino" value="femenino">
+                        <label for="gen">Phyton</label>
+                        <input type="radio" name="gen" id="masculino" value="masculino">
+                        <label for="gen">Otro</label>
+                        <input type="radio" name="gen" id="otro" value="otro">
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
