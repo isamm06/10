@@ -58,7 +58,7 @@
         label{
             color: aqua;
         }
-        input{
+        input, select{
             background-color:#0c162d;
             color: white;
         }
@@ -68,9 +68,9 @@
             margin: 5px;
         }
         body{
-            background-image: url(assets/space3.gif);
+            background-image: url(assets/space6.gif);
             background-repeat: no-repeat;
-            background-size:1000px;
+            background-size:cover;
         }
 
     </style>
@@ -114,12 +114,6 @@
                         <p>></p>
                         <input type="text" name="name" id="name">
                     </div>
-                    <div>
-                        <label for="fecha">Ingrese su fecha de nacimiento</label>
-                    </div>
-                    <div>
-                        <input type="date" name="fecha" id="fecha">
-                    </div>
 
                     <div>
                         <label for="provincia">De donde eres</label>
@@ -151,13 +145,20 @@
                             <option value="chaco">Chaco</option>
                         </select>
                     </div>
-
+                    
                     <div>
                         <label for="ciudad">Ingrese su ciudad</label>
                     </div>
                     <div class="here">
                         <p>></p>
                         <input type="text" name="ciudad" id="ciudad">
+                    </div>
+
+                    <div>
+                        <label for="fecha">Ingrese su fecha de nacimiento</label>
+                    </div>
+                    <div>
+                        <input type="date" name="fecha" id="fecha">
                     </div>
 
                     <div>
